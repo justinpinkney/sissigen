@@ -1,0 +1,6 @@
+{{ lead }}
+
+{% for item in items %}
+    <h4><a href="{{ item.href }}">{{ item.title }}</a></h4>
+    <p>{{item.subtitle}}</p>
+{% endfor %}
