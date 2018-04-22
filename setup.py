@@ -9,4 +9,9 @@ setup(
               'sissigen = sissigen:main'
           ]
       },
+    install_requires=[
+        'markdown2',
+        'jinja2',
+        'beautifulsoup4',
+        ],
 )
